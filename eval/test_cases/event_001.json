@@ -1,0 +1,92 @@
+{
+  "event": {
+    "event_id": "evt_001",
+    "spacecraft": "SMAP",
+    "channel_id": "D-2",
+    "timestamp": "2026-01-15T03:00:00Z",
+    "window_size": 50,
+    "window_start_index": 6402,
+    "anomaly_window_end": 6452,
+    "labeled_anomaly_start": 4319,
+    "labeled_anomaly_end": 8536,
+    "anomaly_class": "point",
+    "ensemble_score": 0.0582,
+    "ensemble_agreement": 1,
+    "n_models_in_ensemble": 3,
+    "attribution": {
+      "channel_id": "D-2",
+      "feature_names": [
+        "mean",
+        "std",
+        "min",
+        "max",
+        "slope"
+      ],
+      "feature_attributions": [
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        -0.0
+      ],
+      "attribution_concentration": 0.4
+    },
+    "channel_attributions": {
+      "method": "perturbation",
+      "description": "Each value is the drop in anomaly score when that channel is replaced with its training mean. Positive = channel contributed to the anomaly. Normalized to max abs = 1.",
+      "values": [
+        1.0,
+        0.0973,
+        0.0429,
+        0.0856,
+        0.0132,
+        0.2267,
+        0.1946,
+        0.0186,
+        0.0093,
+        0.0132,
+        0.0,
+        0.0186,
+        0.0,
+        0.0132,
+        0.0132,
+        0.0,
+        0.0,
+        0.0856,
+        0.0845,
+        0.0601,
+        0.0093,
+        0.0996,
+        0.0963,
+        0.0,
+        0.0
+      ],
+      "top_channels": [
+        {
+          "channel_index": 0,
+          "attribution": 1.0
+        },
+        {
+          "channel_index": 5,
+          "attribution": 0.2267
+        },
+        {
+          "channel_index": 6,
+          "attribution": 0.1946
+        },
+        {
+          "channel_index": 21,
+          "attribution": 0.0996
+        },
+        {
+          "channel_index": 1,
+          "attribution": 0.0973
+        }
+      ]
+    },
+    "archetype": "mid",
+    "ground_truth_top_feature": "mean",
+    "ground_truth_anomaly_type": "sensor_fault",
+    "ground_truth_severity": "low"
+  }
+}

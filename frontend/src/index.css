@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #0a0a0f;
+  --color-surface: #111118;
+  --color-surface-2: #16161f;
+  --color-border: rgba(255, 255, 255, 0.08);
+  --color-border-strong: rgba(255, 255, 255, 0.15);
+  --color-text: #f0f0f5;
+  --color-text-muted: #a0a0b8;
+  --color-text-dim: #52526a;
+  --color-accent: #a78bfa;
+  --color-accent-2: #818cf8;
+  --color-accent-glow: rgba(167, 139, 250, 0.15);
+  --color-green: #4ade80;
+  --color-yellow: #fcd34d;
+  --color-red: #f87171;
+  --color-blue: #7dd3fc;
+
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: var(--color-bg);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--color-border-strong); border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: var(--color-text-dim); }
+
+/* Selection */
+::selection { background: var(--color-accent-glow); color: var(--color-text); }
+
+/* Source selector toggle — data-active ensures reliable re-render */
+button[data-active="true"] {
+  border: 1px solid rgba(167, 139, 250, 0.5) !important;
+  background: rgba(167, 139, 250, 0.12) !important;
+}
+button[data-active="false"] {
+  border: 1px solid var(--color-border) !important;
+  background: var(--color-surface-2) !important;
+}
+button[data-active="true"]:hover {
+  background: rgba(167, 139, 250, 0.18) !important;
+}
+button[data-active="false"]:hover {
+  background: rgba(255, 255, 255, 0.04) !important;
+}
+
+/* Source chip label color */
+button[data-active="true"] span:first-child {
+  color: #a78bfa !important;
+  font-weight: 500;
+}
+button[data-active="false"] span:first-child {
+  color: var(--color-text-muted) !important;
+  font-weight: 400;
+}

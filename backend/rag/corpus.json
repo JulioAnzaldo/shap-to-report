@@ -1,0 +1,338 @@
+[
+  {
+    "source_body": "EU_AI_Act",
+    "document": "EU AI Act",
+    "section": "Article 5, Paragraph 1(a)",
+    "topic": "prohibited_practices",
+    "text": "The placing on the market, the putting into service or the use of an AI system that deploys subliminal techniques beyond a person's consciousness or purposefully manipulative or deceptive techniques, with the objective, or the effect of materially distorting the behaviour of a person or a group of persons by appreciably impairing their ability to make an informed decision, thereby causing them to take a decision that they would not have otherwise taken in a manner that causes or is reasonably likely to cause that person, another person or group of persons significant harm, shall be prohibited."
+  },
+  {
+    "source_body": "EU_AI_Act",
+    "document": "EU AI Act",
+    "section": "Article 5, Paragraph 1(b)",
+    "topic": "prohibited_practices",
+    "text": "The placing on the market, the putting into service or the use of an AI system that exploits any of the vulnerabilities of a natural person or a specific group of persons due to their age, disability or a specific social or economic situation, with the objective, or the effect, of materially distorting the behaviour of that person or a person belonging to that group in a manner that causes or is reasonably likely to cause that person or another person significant harm, shall be prohibited."
+  },
+  {
+    "source_body": "EU_AI_Act",
+    "document": "EU AI Act",
+    "section": "Article 5, Paragraph 1(c)",
+    "topic": "prohibited_practices",
+    "text": "The placing on the market, the putting into service or the use of AI systems for the evaluation or classification of natural persons or groups of persons over a certain period of time based on their social behaviour or known, inferred or predicted personal or personality characteristics, with the social score leading to either detrimental or unfavourable treatment of certain natural persons or groups of persons in social contexts that are unrelated to the contexts in which the data was originally generated or collected, or detrimental or unfavourable treatment that is unjustified or disproportionate to their social behaviour or its gravity, shall be prohibited."
+  },
+  {
+    "source_body": "EU_AI_Act",
+    "document": "EU AI Act",
+    "section": "Article 5, Paragraph 1(d)",
+    "topic": "prohibited_practices",
+    "text": "The placing on the market, the putting into service for this specific purpose, or the use of an AI system for making risk assessments of natural persons in order to assess or predict the risk of a natural person committing a criminal offence, based solely on the profiling of a natural person or on assessing their personality traits and characteristics, shall be prohibited. This prohibition shall not apply to AI systems used to support the human assessment of the involvement of a person in a criminal activity, which is already based on objective and verifiable facts directly linked to a criminal activity."
+  },
+  {
+    "source_body": "EU_AI_Act",
+    "document": "EU AI Act",
+    "section": "Article 5, Paragraph 1(e)",
+    "topic": "prohibited_practices",
+    "text": "The placing on the market, the putting into service for this specific purpose, or the use of AI systems that create or expand facial recognition databases through the untargeted scraping of facial images from the internet or CCTV footage, shall be prohibited."
+  },
+  {
+    "source_body": "EU_AI_Act",
+    "document": "EU AI Act",
+    "section": "Article 5, Paragraph 1(f)",
+    "topic": "prohibited_practices",
+    "text": "The placing on the market, the putting into service for this specific purpose, or the use of AI systems to infer emotions of a natural person in the areas of workplace and education institutions, except where the use of the AI system is intended to be put in place or into the market for medical or safety reasons, shall be prohibited."
+  },
+  {
+    "source_body": "EU_AI_Act",
+    "document": "EU AI Act",
+    "section": "Article 5, Paragraph 1(g)",
+    "topic": "prohibited_practices",
+    "text": "The placing on the market, the putting into service for this specific purpose, or the use of biometric categorisation systems that categorise individually natural persons based on their biometric data to deduce or infer their race, political opinions, trade union membership, religious or philosophical beliefs, sex life or sexual orientation, shall be prohibited. This prohibition does not cover any labelling or filtering of lawfully acquired biometric datasets, such as images, based on biometric data or categorizing of biometric data in the area of law enforcement."
+  },
+  {
+    "source_body": "EU_AI_Act",
+    "document": "EU AI Act",
+    "section": "Article 5, Paragraph 1(h)",
+    "topic": "prohibited_practices",
+    "text": "The use of 'real-time' remote biometric identification systems in publicly accessible spaces for the purposes of law enforcement shall be prohibited, unless and in so far as such use is strictly necessary for one of the following objectives: (i) the targeted search for specific victims of abduction, trafficking in human beings or sexual exploitation of human beings, as well as the search for missing persons; (ii) the prevention of a specific, substantial and imminent threat to the life or physical safety of natural persons or a genuine and present or genuine and foreseeable threat of a terrorist attack; (iii) the localisation or identification of a person suspected of having committed a criminal offence, for the purpose of conducting a criminal investigation or prosecution or executing a criminal penalty for offences referred to in Annex II and punishable in the Member State concerned by a custodial sentence or a detention order for a maximum period of at least four years."
+  },
+  {
+    "source_body": "EU_AI_Act",
+    "document": "EU AI Act",
+    "section": "Article 5, Paragraph 2",
+    "topic": "prohibited_practices",
+    "text": "The use of 'real-time' remote biometric identification systems in publicly accessible spaces for the purposes of law enforcement for any of the objectives referred to in paragraph 1(h) shall be deployed only to confirm the identity of the specifically targeted individual, and shall take into account the nature of the situation giving rise to the possible use including the seriousness, probability and scale of the harm that would be caused if the system were not used, and the consequences of the use of the system for the rights and freedoms of all persons concerned. Such use shall comply with necessary and proportionate safeguards and conditions in relation to the use in accordance with the national law authorising the use thereof, in particular as regards the temporal, geographic and personal limitations. Use shall be authorised only if the law enforcement authority has completed a fundamental rights impact assessment as provided for in Article 27 and has registered the system in the EU database according to Article 49."
+  },
+  {
+    "source_body": "EU_AI_Act",
+    "document": "EU AI Act",
+    "section": "Article 5, Paragraph 3",
+    "topic": "prohibited_practices",
+    "text": "Each use for the purposes of law enforcement of a 'real-time' remote biometric identification system in publicly accessible spaces shall be subject to a prior authorisation granted by a judicial authority or an independent administrative authority whose decision is binding of the Member State in which the use is to take place. In a duly justified situation of urgency, the use of such system may be commenced without an authorisation provided that such authorisation is requested without undue delay, at the latest within 24 hours. If such authorisation is rejected, the use shall be stopped with immediate effect and all the data, as well as the results and outputs of that use shall be immediately discarded and deleted. No decision that produces an adverse legal effect on a person may be taken based solely on the output of the 'real-time' remote biometric identification system."
+  },
+  {
+    "source_body": "EU_AI_Act",
+    "document": "EU AI Act",
+    "section": "Article 5, Paragraphs 4-7",
+    "topic": "prohibited_practices",
+    "text": "Each use of a 'real-time' remote biometric identification system in publicly accessible spaces for law enforcement purposes shall be notified to the relevant market surveillance authority and the national data protection authority. A Member State may decide to provide for the possibility to fully or partially authorise such use within the limits and conditions listed in paragraph 1(h) and paragraphs 2 and 3, and shall lay down in national law the necessary detailed rules for the request, issuance, exercise, supervision and reporting relating to such authorisations. Member States shall notify those rules to the Commission at the latest 30 days following adoption. National authorities shall submit annual reports to the Commission on such use, and the Commission shall publish annual reports based on aggregated data from Member States."
+  },
+  {
+    "source_body": "EU_AI_Act",
+    "document": "EU AI Act",
+    "section": "Article 14, Paragraph 1",
+    "topic": "human_oversight",
+    "text": "High-risk AI systems shall be designed and developed in such a way, including with appropriate human-machine interface tools, that they can be effectively overseen by natural persons during the period in which they are in use."
+  },
+  {
+    "source_body": "EU_AI_Act",
+    "document": "EU AI Act",
+    "section": "Article 14, Paragraph 2",
+    "topic": "human_oversight",
+    "text": "Human oversight shall aim to prevent or minimise the risks to health, safety or fundamental rights that may emerge when a high-risk AI system is used in accordance with its intended purpose or under conditions of reasonably foreseeable misuse, in particular where such risks persist despite the application of other requirements set out in this Section."
+  },
+  {
+    "source_body": "EU_AI_Act",
+    "document": "EU AI Act",
+    "section": "Article 14, Paragraph 3",
+    "topic": "human_oversight",
+    "text": "The oversight measures shall be commensurate with the risks, level of autonomy and context of use of the high-risk AI system, and shall be ensured through either one or both of the following types of measures: (a) measures identified and built, when technically feasible, into the high-risk AI system by the provider before it is placed on the market or put into service; (b) measures identified by the provider before placing the high-risk AI system on the market or putting it into service and that are appropriate to be implemented by the deployer."
+  },
+  {
+    "source_body": "EU_AI_Act",
+    "document": "EU AI Act",
+    "section": "Article 14, Paragraph 4",
+    "topic": "human_oversight",
+    "text": "For the purpose of implementing paragraphs 1, 2 and 3, the high-risk AI system shall be provided to the deployer in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (a) to properly understand the relevant capacities and limitations of the high-risk AI system and be able to duly monitor its operation, including in view of detecting and addressing anomalies, dysfunctions and unexpected performance; (b) to remain aware of the possible tendency of automatically relying or over-relying on the output produced by a high-risk AI system (automation bias), in particular for high-risk AI systems used to provide information or recommendations for decisions to be taken by natural persons; (c) to correctly interpret the high-risk AI system's output, taking into account, for example, the interpretation tools and methods available; (d) to decide, in any particular situation, not to use the high-risk AI system or to otherwise disregard, override or reverse the output of the high-risk AI system; (e) to intervene in the operation of the high-risk AI system or interrupt the system through a 'stop' button or a similar procedure that allows the system to come to a halt in a safe state."
+  },
+  {
+    "source_body": "EU_AI_Act",
+    "document": "EU AI Act",
+    "section": "Article 14, Paragraph 5",
+    "topic": "human_oversight",
+    "text": "For high-risk AI systems referred to in point 1(a) of Annex III, the measures referred to in paragraph 3 of this Article shall be such as to ensure that, in addition, no action or decision is taken by the deployer on the basis of the identification resulting from the system unless that identification has been separately verified and confirmed by at least two natural persons with the necessary competence, training and authority. The requirement for a separate verification by at least two natural persons shall not apply to high-risk AI systems used for the purposes of law enforcement, migration, border control or asylum, where Union or national law considers the application of this requirement to be disproportionate."
+  },
+  {
+    "source_body": "EU_AI_Act",
+    "document": "EU AI Act",
+    "section": "Article 60, Paragraphs 1-3",
+    "topic": "real_world_testing",
+    "text": "Testing of high-risk AI systems in real world conditions outside AI regulatory sandboxes may be conducted by providers or prospective providers of high-risk AI systems listed in Annex III, in accordance with this Article and the real-world testing plan referred to in this Article, without prejudice to the prohibitions under Article 5. The Commission shall, by means of implementing acts, specify the detailed elements of the real-world testing plan. Providers or prospective providers may conduct testing of high-risk AI systems referred to in Annex III in real world conditions at any time before the placing on the market or the putting into service of the AI system on their own or in partnership with one or more deployers or prospective deployers. The testing of high-risk AI systems in real world conditions under this Article shall be without prejudice to any ethical review that is required by Union or national law."
+  },
+  {
+    "source_body": "EU_AI_Act",
+    "document": "EU AI Act",
+    "section": "Article 60, Paragraph 4(a-d)",
+    "topic": "real_world_testing",
+    "text": "Providers or prospective providers may conduct the testing in real world conditions only where all of the following conditions are met: (a) the provider or prospective provider has drawn up a real-world testing plan and submitted it to the market surveillance authority in the Member State where the testing is to be conducted; (b) the market surveillance authority has approved the testing and the real-world testing plan; where the market surveillance authority has not provided an answer within 30 days, the testing and the plan shall be understood to have been approved; where national law does not provide for a tacit approval, the testing shall remain subject to an authorisation; (c) the provider or prospective provider has registered the testing in real world conditions with a Union-wide unique single identification number and with the information specified in Annex IX; (d) the provider or prospective provider conducting the testing is established in the Union or has appointed a legal representative who is established in the Union."
+  },
+  {
+    "source_body": "EU_AI_Act",
+    "document": "EU AI Act",
+    "section": "Article 60, Paragraph 4(e-k)",
+    "topic": "real_world_testing",
+    "text": "Additional conditions for testing in real world conditions include: (e) data collected and processed for the purpose of the testing shall be transferred to third countries only provided that appropriate and applicable safeguards under Union law are implemented; (f) the testing does not last longer than necessary to achieve its objectives and in any case not longer than six months, which may be extended for an additional period of six months subject to prior notification to the market surveillance authority; (g) subjects who are persons belonging to vulnerable groups due to their age or disability are appropriately protected; (h) where testing is organised in cooperation with deployers or prospective deployers, the latter have been informed of all aspects of the testing relevant to their decision to participate and given relevant instructions for use; (i) subjects have given informed consent in accordance with Article 61; (j) the testing is effectively overseen by the provider and deployers through suitably qualified persons; (k) the predictions, recommendations or decisions of the AI system can be effectively reversed and disregarded."
+  },
+  {
+    "source_body": "EU_AI_Act",
+    "document": "EU AI Act",
+    "section": "Article 60, Paragraphs 5-6",
+    "topic": "real_world_testing",
+    "text": "Any subjects of the testing in real world conditions, or their legally designated representative, may without any resulting detriment and without having to provide any justification withdraw from the testing at any time by revoking their informed consent and may request the immediate and permanent deletion of their personal data. The withdrawal of informed consent shall not affect the activities already carried out. Member States shall confer on their market surveillance authorities the powers of requiring providers and prospective providers to provide information, of carrying out unannounced remote or on-site inspections, and of performing checks on the conduct of the testing in real world conditions and the related high-risk AI systems."
+  },
+  {
+    "source_body": "EU_AI_Act",
+    "document": "EU AI Act",
+    "section": "Article 60, Paragraphs 7-9",
+    "topic": "real_world_testing",
+    "text": "Any serious incident identified in the course of the testing in real world conditions shall be reported to the national market surveillance authority in accordance with Article 73. The provider or prospective provider shall adopt immediate mitigation measures or suspend the testing until such mitigation takes place, or otherwise terminate it, and shall establish a procedure for the prompt recall of the AI system upon termination. Providers or prospective providers shall notify the national market surveillance authority of the suspension or termination of the testing and of the final outcomes. The provider or prospective provider shall be liable under applicable Union and national liability law for any damage caused in the course of their testing in real world conditions."
+  },
+  {
+    "source_body": "NASA_NPR",
+    "document": "NASA NPR 8715.3E",
+    "section": "Preface P.1-P.2",
+    "topic": "mission_assurance_relief",
+    "text": "This directive defines NASA procedural requirements for requesting relief from Agency mission assurance requirements and the associated roles and responsibilities. This directive is applicable to NASA Headquarters and NASA Centers, including Component Facilities and Technical and Service Support Centers, and to NASA missions and NASA controlled activities in support of NASA missions. All mandatory actions are denoted by statements containing the term 'shall.' The term 'may' denotes a discretionary privilege or permission, 'should' denotes a good practice and is recommended but not required, and 'will' denotes expected outcome."
+  },
+  {
+    "source_body": "NASA_NPR",
+    "document": "NASA NPR 8715.3E",
+    "section": "Section 1.1",
+    "topic": "mission_assurance_relief",
+    "text": "It is Agency policy that all requirements are complied with unless relief is formally granted. Requesting relief from requirements is both an expected and accepted part of establishing proper requirements. Documented authorizations of relief are frequently referred to as either waivers or deviations. NASA cannot authorize relief from external requirements, such as Federal, state, or local regulations, or voluntary consensus standards incorporated by reference in Federal regulations. Requests for relief from a Federal, state, or local safety regulation are reviewed by the NASA Headquarters Office of Safety and Mission Assurance and submitted to the appropriate Federal, state, or local agency for approval."
+  },
+  {
+    "source_body": "NASA_NPR",
+    "document": "NASA NPR 8715.3E",
+    "section": "Section 1.2.1-1.2.3",
+    "topic": "mission_assurance_relief",
+    "text": "The Chief, SMA is the Approving Authority for relief from Agency mission assurance requirements. The Chief, SMA delegates the approving authority of Agency Mission Assurance requirements imposed on programs and projects, including the acceptance of alternate technical standards, to the program or project SMA Technical Authority, except for the following areas for which the Chief, SMA retains authority: orbital debris mitigation; planetary protection; nuclear flight safety; human-rating spaceflight systems; mission risk classification; mishap investigations; and NASA interim directives that replace or augment those documents. The Chief, SMA consults with the Associate Administrator, Administrator, and other stakeholders as appropriate when authorizing relief from requirements in those areas."
+  },
+  {
+    "source_body": "NASA_NPR",
+    "document": "NASA NPR 8715.3E",
+    "section": "Section 1.3.1",
+    "topic": "mission_assurance_relief",
+    "text": "The requestor shall include the following information in the request for relief: (a) the requirement(s) for which relief is being sought; (b) a description of the request for relief, i.e., the nature of the proposed departure from the requirement; (c) the reasons and justification for the relief, why it is not possible or desirable to comply; (d) the resulting change in risk to the public, workforce, high-value property, and orbital and planetary environments; (e) the resulting change in risk to crew safety and mission success; (f) confirmation the relief does not conflict with applicable Federal statutes or regulations, or with Agency policy or higher-level requirement; (g) when and whether compliance will be achieved; (h) alternate actions to be taken for managing the risk; (i) findings and recommendations from the program or project SMA Technical Authority regarding the technical merits of the case; (j) for matters involving human safety risk, formal agreement to assume the risk from the actual risk taker(s) or official spokesperson(s) and applicable supervisory chain."
+  },
+  {
+    "source_body": "NASA_NPR",
+    "document": "NASA NPR 8715.3E",
+    "section": "Section 1.3.2-1.3.3",
+    "topic": "mission_assurance_relief",
+    "text": "Relief is not granted until the request has been approved and any increase in risk has been accepted by the appropriate authorities based on the risk impacts. NPR 8000.4 contains requirements for decisions to accept risk to safety and mission success."
+  },
+  {
+    "source_body": "NASA_NPR",
+    "document": "NASA NPR 8705.4A",
+    "section": "Chapter 1, Sections 1.1-1.2",
+    "topic": "risk_classification",
+    "text": "This directive establishes four risk tolerance classes and the associated expectations corresponding to the acceptable risk and degree of uncertainty that a Mission Directorate assigns to a project. These four distinct risk tolerance classes provide projects with a uniform authoritative source of Agency-level assurance expectations from which managers, technical authorities, engineers, etc., can develop, communicate, and implement appropriate mission assurance and risk management strategies and requirements consistent with corresponding NASA assurance standards. Unless specifically prohibited, responsibilities and requirements may be delegated. The stated role or actor remains accountable for its implementation and outcome."
+  },
+  {
+    "source_body": "NASA_NPR",
+    "document": "NASA NPR 8705.4A",
+    "section": "Chapter 3, Section 3.1.3",
+    "topic": "risk_classification",
+    "text": "The four risk tolerance classes are: Class A — the lowest risk tolerance, driven more by technical objectives, normally representing a very high priority mission with very high complexity. Class B — low risk tolerance driven more by technical objectives, normally representing a high priority mission with high complexity. Class C — moderate risk tolerance driven more by technical objectives, normally representing a medium priority mission with medium complexity. Class D — high risk tolerance driven more by programmatic constraints, normally representing a lower priority mission with medium to low complexity. The Mission Directorate Associate Administrator shall designate and document mission and instrument risk tolerance classes in the KDP B Decision Memorandum."
+  },
+  {
+    "source_body": "NASA_NPR",
+    "document": "NASA NPR 8705.4A",
+    "section": "Chapter 3, Section 3.2",
+    "topic": "risk_classification",
+    "text": "Projects satisfy SMA objectives either using standards already accepted by NASA and identified in Appendix D, or using alternate approaches or standards proposed by the project and determined to be appropriate for the mission, risk tolerance class, and specified application by the Technical Authorities. Prior to SRR, the Project Manager shall formulate and obtain MDAA approval and Chief SMA and Chief Engineer concurrence of SMA objectives consistent with the designated risk tolerance class(es). The NASA Project Manager shall establish, document, and implement the project's SMA Plan detailing project-specific assurance plans, standards, methods, processes, and practices consistent with the approved Assurance Implementation Matrix. The NASA Project Manager shall obtain Project-Level SMA TA concurrence on departures from the SMA Plan including standards referenced therein."
+  },
+  {
+    "source_body": "NASA_NPR",
+    "document": "NASA NPR 8705.4A",
+    "section": "Chapter 3, Section 3.3.1",
+    "topic": "risk_classification",
+    "text": "The following documents are applicable to NASA missions and instruments regardless of risk tolerance class: NPR 8621.1, NASA Procedural Requirements for Mishap and Close Call Reporting, Investigating, and Recordkeeping; NPR 8705.6, Safety and Mission Assurance Audits, Reviews, and Assessments; NPR 8715.3, NASA General Safety Program Requirements; NPR 8715.5, Range Flight Safety Program; NPR 8715.6, NASA Procedural Requirements for Limiting Orbital Debris and Evaluating the Meteoroid and Orbital Debris Environments; NPR 8715.7, Payload Safety Program; NPR 8715.24, Planetary Protection Provisions for Robotic Extraterrestrial Missions; NPR 8735.1, Exchange of Problem Data Using NASA Advisories and GIDEP."
+  },
+  {
+    "source_body": "NASA_NPR",
+    "document": "NASA NPR 8705.4A",
+    "section": "Appendix A — Key Definitions",
+    "topic": "risk_classification",
+    "text": "Acceptable risk: a level of risk that, when evaluated with consideration of its associated uncertainty, satisfies pre-established risk criteria. Critical item: one which if defective or fails causes a catastrophic event affecting the public, NASA workforce, high-value assets, or mission success. Fault tolerance: the built-in ability of a system to provide continued correct operation in the presence of a specified number of faults or failures. Risk: the potential for shortfalls with respect to achieving explicitly established objectives, operationally characterized as a set of triplets — the scenario(s) leading to degraded performance, the likelihood(s) of those scenarios, and the consequence(s) that would result. Risk classification: a stakeholder's declaration of tolerance for risk based on factors such as priority, national significance, technological challenge, and resources available. Single point failure: an independent element of a system whose failure would result in loss of mission objectives, hardware, or crew."
+  },
+  {
+    "source_body": "NASA_Lessons_Learned",
+    "document": "NASA Lessons Learned #691 — Spacecraft Orbital Anomaly Report System",
+    "section": "Overview and Anomaly Reporting Procedure",
+    "topic": "anomaly_reporting",
+    "text": "The Spacecraft Orbital Anomaly Report (SOAR) System provides a single uniform, effective, and efficient computer database for in-orbit reliability studies to identify performance trends for use in design reviews, flight readiness reviews, and in the evaluation of test, reliability, and quality assurance policies. Immediately after the occurrence of an anomaly, the orbiting spacecraft's control center notifies the cognizant Project Operations Director (POD). The POD assigns a person responsible for determining the cause of the anomaly and corrective actions. The responsible person conducts an anomaly investigation with the help of control center personnel, the system or instrument representative, the system integration contractor, the subsystem fabricator, and the Flight Assurance Manager (FAM). The cause of the anomaly is determined if possible, and corrective action is proposed, agreed to, and approved by project and Center management."
+  },
+  {
+    "source_body": "NASA_Lessons_Learned",
+    "document": "NASA Lessons Learned #691 — Spacecraft Orbital Anomaly Report System",
+    "section": "Anomaly Classification — Subsystems and Mission Effect",
+    "topic": "anomaly_reporting",
+    "text": "Spacecraft anomalies are classified by subsystem: Attitude Control and Stabilization, Power, Propulsion, Structure, Telemetry and Data Handling, Thermal, Timing Control and Command, Instrument (Payload), and Other. Mission effect (criticality) is classified as: Negligible (0-5% loss), Non-negligible but Small (5-33% loss), Substantial (33-66% loss), Major (66-95% loss), or Catastrophic (95-100% loss). Anomaly effect categories include: Spacecraft Failed, Subsystem/Instrument Failed, Component Failed, Assembly Failed, Part Failed, Subsystem/Instrument Degraded, Indeterminate, Loss of Redundancy, and None."
+  },
+  {
+    "source_body": "NASA_Lessons_Learned",
+    "document": "NASA Lessons Learned #691 — Spacecraft Orbital Anomaly Report System",
+    "section": "Anomaly Classification — Failure Category and Type",
+    "topic": "anomaly_reporting",
+    "text": "Failure categories for spacecraft anomalies are: Design Problem, Workmanship Problem, Part Problem, Environmental Problem, Other (with explanation), and Unknown. Types of anomaly are classified as: Systematic (would occur if identical equipment were operated under identical circumstances), Random, Wearout (a special case of systematic), Indeterminate, and Intermittent. An anomaly is defined as a departure from normal operation — an abnormality in the mission operations of a spacecraft in orbit."
+  },
+  {
+    "source_body": "NASA_Lessons_Learned",
+    "document": "NASA Lessons Learned #691 — Spacecraft Orbital Anomaly Report System",
+    "section": "Lesson Learned and Recommendation",
+    "topic": "anomaly_reporting",
+    "text": "If the SOAR practice is not followed, in-orbit anomalies may not be recognized, analyzed, and possibly corrected in a timely manner, leading to continued degraded performance and possible damage to the spacecraft. Additionally, deficiencies in designs may not be recognized and corrected in new or follow-on flight missions. The recommendation is to implement a positive feedback system for reporting, documenting, collecting, analyzing, and closing orbital anomaly information on spacecraft. The yearly SOAR reports provide management, spacecraft projects and designers, and flight assurance personnel with both short-term and long-term in-orbit performance and reliability trends which can indicate areas where design improvements should be made on follow-on spacecraft programs."
+  },
+  {
+    "source_body": "NASA_Lessons_Learned",
+    "document": "NASA Lessons Learned #6216 — MSL Mobility Assembly Lift Mishap",
+    "section": "Driving Event Summary",
+    "topic": "anomaly_detection",
+    "text": "In January 2010, JPL flight hardware was damaged during a lift operation preceding a test of the MSL rover Mobility Assembly. An undetected mechanical interference between a latch pin nut on the rocker deploy pivot and the 'steering wheel' mechanical GSE caused the nut to shear off under load. The anomaly was signaled by an anomalous load cell reading of approximately 330 lbs — over twice the nominal expected reading — but the significance was not recognized in time to halt the lift before the hardware made a loud pop and the load dropped to 150 lbs. The lack of a disciplined methodology to identify potential test interferences between flight hardware and GSE was an error in test preparations. A second error was that the maximum expected load cell reading was not calculated by the cognizant engineer prior to the activity and communicated to the lift team."
+  },
+  {
+    "source_body": "NASA_Lessons_Learned",
+    "document": "NASA Lessons Learned #6216 — MSL Mobility Assembly Lift Mishap",
+    "section": "Lessons Learned",
+    "topic": "anomaly_detection",
+    "text": "Damage still occurs to NASA spacecraft flight systems that is preventable with proper adherence to good handling practices. Neither drawings nor experience from previous tests of a developing system can be relied upon to identify interference points or close approaches during lift operations. In the case of the MSL mobility assembly lift, discovering the interference point would have required personnel watching the rotation from the rear of the GSE and knowing exactly where to look. Errors in the planning and implementation of the test indicate that training in lift operations is important. An anomalous sensor reading — in this case a load cell reading over twice the expected value — is a critical signal that must be acted upon immediately. Delayed response to an anomalous reading resulted in hardware damage that could have been prevented."
+  },
+  {
+    "source_body": "NASA_Lessons_Learned",
+    "document": "NASA Lessons Learned #6216 — MSL Mobility Assembly Lift Mishap",
+    "section": "Recommendations",
+    "topic": "anomaly_detection",
+    "text": "The cognizant engineer for flight hardware under test is fully responsible for planning and conducting the test, including lift operations. Procedures for lifts should always include a step for verifying and recording the expected load cell reading. Pre-lift briefings should always communicate the expected maximum load cell reading and identify any expected hardware close approaches. An individual should be assigned throughout the lift operation to observe the load cell and call out the numbers to assure that the expected load is not exceeded. It is always prudent to perform a fit or rotation check prior to engaging critical hardware. The cognizant engineer should perform a very active role, calling out 'lift and hold' while moving around the test article and verbalizing possible anomalies. Center-wide training classes should be held periodically covering mandatory lift procedures, lessons learned, participant qualifications and responsibilities, and system safety practices."
+  },
+  {
+    "source_body": "NASA_Lessons_Learned",
+    "document": "NASA Lessons Learned #4057 — Spacecraft Single Phase AC Electrical Power",
+    "section": "Driving Event",
+    "topic": "sensor_fault",
+    "text": "Each Space Shuttle Orbiter fuel cell power plant (FCP) has two pumps: a coolant pump and a water separator/hydrogen circulation pump (H2O/H2 pump), each running on 3-phase AC current provided by Orbiter inverters. The H2O/H2 pump has a pump motor condition (PMC) sensor integrated into the motor assembly to provide insight into pump loading and feedback when a motor stalls or there is a current phase loss. Sensor output is obtained by monitoring all three input phases as well as the common return (neutral leg) for changes in current flow. During several launch countdowns, the PMC sensor picked up phase imbalances that were not caused by the FCP but made the motor suspect nonetheless. These imbalances were caused by single-phase electrical equipment such as Orbiter lighting drawing from the same 3-phase supply, producing a phase imbalance that distorted the PMC sensor readings. Significant time and effort were spent investigating these anomalies only to determine they were caused by normal operation of equipment external to the FCP."
+  },
+  {
+    "source_body": "NASA_Lessons_Learned",
+    "document": "NASA Lessons Learned #4057 — Spacecraft Single Phase AC Electrical Power",
+    "section": "Lesson Learned and Recommendation",
+    "topic": "sensor_fault",
+    "text": "Having a sensitive sensor that relies on obtaining 3-phase current phase imbalances to provide insight into the status of a given piece of equipment can give false indications when the 3-phase current affects other equipment being operated. This is a known failure mode where an anomalous sensor reading does not reflect the actual health of the monitored component but is instead caused by external interference from other systems sharing the same power supply. The recommendation is to either develop a sensor that is not subject to distortions caused by other equipment, or provide a dedicated source of electrical power to the equipment being monitored, to prevent false anomaly indications from disrupting operations and consuming investigation resources."
+  },
+  {
+    "source_body": "NASA_Lessons_Learned",
+    "document": "NASA Lessons Learned #6196 — Shaker Self-Check Unexpectedly Exceeded Dynamic Test Limit",
+    "section": "Driving Event",
+    "topic": "anomaly_detection",
+    "text": "In July 2010, an open-loop sine burst test was conducted at JPL to exercise the three flight interface points on the High Gain Antenna (HGA) for the Juno spacecraft. Prior to the sine burst test, the shaker controller software automatically initiated a self-check as standard procedure. The self-check signal level is normally considered to be of insignificant strength compared to test levels. However, the self-check generated approximately 67g of response on the HGA, whereas the highest response expected during the actual sine burst test was only 33g — the self-check produced over twice the expected test load. A subsequent detailed inspection found a repairable 3-inch crack in the HGA that may have been caused by the aberrant self-check. The self-check step of the simulation was not discussed and its input levels to the flight hardware were not examined because the self-check level is not considered a test parameter."
+  },
+  {
+    "source_body": "NASA_Lessons_Learned",
+    "document": "NASA Lessons Learned #6196 — Shaker Self-Check Unexpectedly Exceeded Dynamic Test Limit",
+    "section": "Lesson Learned and Recommendation",
+    "topic": "anomaly_detection",
+    "text": "The control software for electrodynamic shaker test equipment generates a self-check signal immediately prior to a test; the strength of this signal may exceed that generated by the actual test, posing a risk to the test article. A signal or reading that is assumed to be within safe bounds based on its nominal role — such as a diagnostic self-check — can in certain configurations produce loads or readings that exceed operational limits. In planning for dynamic testing, particularly for sine burst testing, ensure that the self-check signal will be set lower than any test level by analyzing the input level to the test article. Following the Juno HGA incident, JPL changed its test procedures to require the test operator to verify that the input loads due to self-check levels are set lower than the lowest level associated with the hardware test."
+  },
+  {
+    "source_body": "NASA_Lessons_Learned",
+    "document": "NASA Lessons Learned #2218 — Flight Software Engineering Lessons",
+    "section": "Driving Event — FSW Risk Context",
+    "topic": "software_anomaly",
+    "text": "The engineering of flight software (FSW) for a typical JPL spacecraft is a major consideration in establishing total project cost and schedule because every mission requires a significant amount of new software to implement new spacecraft functionality. FSW development is performed concurrently with the design and development of the spacecraft, its instruments, and testbed software. Complete and accurate spacecraft hardware design documentation needed to complete FSW design and testing is typically unavailable until late in the software development lifecycle. A significant amount of software testing is usually performed after the spacecraft has launched, during the cruise portion of the mission, with software changes uploaded prior to critical mission events such as landing on Mars. FSW errors had a role in the loss of the Mars Polar Lander and Mars Climate Orbiter missions, in the Mars Global Surveyor loss of contact, and in recoverable in-flight failures such as the Mars Exploration Rover flash memory anomaly."
+  },
+  {
+    "source_body": "NASA_Lessons_Learned",
+    "document": "NASA Lessons Learned #2218 — Flight Software Engineering Lessons",
+    "section": "Recommendations — Risk-Based FSW Development",
+    "topic": "software_anomaly",
+    "text": "A risk-based approach to software engineering should be adopted. Software development resources may not be allocated optimally because of overly optimistic estimates of software reuse, inability to accurately estimate the cost of new code, reallocation of hardware functionality to FSW, hardware that operates differently than planned, and delays in FSW testing due to late delivery of flight-like testbeds. Software practices should be assessed for risk mitigation potential and adopted based on value. Software engineers should be involved in early system-level project decisions that determine flight system characteristics, cost, and the role of FSW. Projects should be provided with the requisite software development infrastructure prior to project commencement, and any changes to the software development process or tools should be made before software engineers are assigned to the project."
+  },
+  {
+    "source_body": "NASA_Lessons_Learned",
+    "document": "NASA Lessons Learned #2218 — Flight Software Engineering Lessons",
+    "section": "Recommendations — Testing, Architecture, and Verification",
+    "topic": "software_anomaly",
+    "text": "Simulations of instruments and other custom hardware that interfaces with FSW should be developed at the earliest point at which their behavior is understood, and used in regression tests of FSW logic. Deferring all FSW testing to the end of development should be avoided when there are fewer resources available to fix problems. Before coding begins, an FSW architecture specification should be prepared. Objective measures should be used to monitor FSW development progress and determine the adequacy of software verification activities, including metrics such as the percentage of code, requirements, and defined faults tested, and the percentage of tests passed in both simulation and testbed environments. A complete and consistent set of engineering requirements requires a robust systems engineering process that defines performance and resource utilization requirements, traces requirements to higher and lower-level requirements, and ensures review by key stakeholders and independent parties."
+  },
+  {
+    "source_body": "NASA_Lessons_Learned",
+    "document": "NASA Lessons Learned #11201 — MSL Sol-200 Anomaly",
+    "section": "Driving Event",
+    "topic": "software_anomaly",
+    "text": "Six months after landing on Mars (Sol-200), telemetry reported uncorrectable errors in the NAND flash memory of the Mars Science Laboratory (MSL) Curiosity rover. Several flight software tasks had hung up, leading to an inability of the prime computer (RCE-A) to turn off for its normal recharge session. Normally, fault protection would intervene via a watchdog timer, but the watchdog timers were being reset instead of triggering a reboot. This could inexorably lead to a power brown-out of the rover in three to six days — a potentially mission-catastrophic event. Within 16 hours of the initial error message, mission controllers bypassed the flight software and commanded a swap from RCE-A to the backup computer (RCE-B). Failure investigation indicated that a single chip in the flash memory array was generating errors during erase cycles, likely due to a connectivity problem on the circuit board or infant mortality of the commercial part. Pre-flight testing had only erased the NAND approximately 12 times, compared to an additional 38 erases after launch."
+  },
+  {
+    "source_body": "NASA_Lessons_Learned",
+    "document": "NASA Lessons Learned #11201 — MSL Sol-200 Anomaly",
+    "section": "Lessons Learned — Recovery Enablers",
+    "topic": "software_anomaly",
+    "text": "Recovery from the MSL Sol-200 anomaly was only possible because of specific system design features: the flight computer design included a capability to provide telemetry data needed to assess spacecraft status under faulted operations; fault history associated with the computer's operation was stored in a location that could be read without involvement of the isolated computer's flight software; hardware commands existed that could swap prime strings independent of flight software; communications across redundant strings and hardware-assisted autopsy capabilities enabled diagnosis and recovery; the NAND flash data store was architected with plenty of margin spanning multiple physical devices; and designers were available during the operations phase to evaluate diagnostic evidence and develop recovery solutions."
+  },
+  {
+    "source_body": "NASA_Lessons_Learned",
+    "document": "NASA Lessons Learned #11201 — MSL Sol-200 Anomaly",
+    "section": "Recommendations",
+    "topic": "software_anomaly",
+    "text": "When operating nominally, non-prime computers must provide telemetry regarding their health to the prime computer or to support equipment upon request. More complete screening of commercial parts should be performed, including burn-in of flight parts to eliminate infant mortality flaws, and additional thermal cycles and erase cycles should be added to the environmental box test program. Due to its known low reliability, NAND flash memory should be avoided for storing critical parameters. The function providing flight software health monitoring should be re-architected to cover more issues, including improving the watchdog timing architecture. The spacecraft must be capable of generating real-time telemetry without a file system operational and data products from files stored in RAM. A minimum level of hardware commands capable of recovering from flight system faults without recourse to flight software must be implemented."
+  }
+]

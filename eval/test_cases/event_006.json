@@ -1,0 +1,92 @@
+{
+  "event": {
+    "event_id": "evt_006",
+    "spacecraft": "SMAP",
+    "channel_id": "E-1",
+    "timestamp": "2026-01-20T18:00:00Z",
+    "window_size": 50,
+    "window_start_index": 4990,
+    "anomaly_window_end": 5040,
+    "labeled_anomaly_start": 5000,
+    "labeled_anomaly_end": 5030,
+    "anomaly_class": "contextual",
+    "ensemble_score": 0.1054,
+    "ensemble_agreement": 1,
+    "n_models_in_ensemble": 3,
+    "attribution": {
+      "channel_id": "E-1",
+      "feature_names": [
+        "mean",
+        "std",
+        "min",
+        "max",
+        "slope"
+      ],
+      "feature_attributions": [
+        0.12,
+        0.9928,
+        -1.0,
+        1.0,
+        0.043
+      ],
+      "attribution_concentration": 0.3541
+    },
+    "channel_attributions": {
+      "method": "perturbation",
+      "description": "Each value is the drop in anomaly score when that channel is replaced with its training mean. Positive = channel contributed to the anomaly. Normalized to max abs = 1.",
+      "values": [
+        1.0,
+        0.3707,
+        0.0648,
+        0.3851,
+        0.0,
+        0.9191,
+        0.9128,
+        0.0282,
+        0.0199,
+        0.0199,
+        0.0,
+        0.0282,
+        0.0199,
+        0.0244,
+        0.0244,
+        0.0,
+        0.0,
+        0.4698,
+        0.4698,
+        0.3371,
+        0.0,
+        0.4408,
+        0.4432,
+        0.0,
+        0.0
+      ],
+      "top_channels": [
+        {
+          "channel_index": 0,
+          "attribution": 1.0
+        },
+        {
+          "channel_index": 5,
+          "attribution": 0.9191
+        },
+        {
+          "channel_index": 6,
+          "attribution": 0.9128
+        },
+        {
+          "channel_index": 17,
+          "attribution": 0.4698
+        },
+        {
+          "channel_index": 18,
+          "attribution": 0.4698
+        }
+      ]
+    },
+    "archetype": "mid",
+    "ground_truth_top_feature": "min",
+    "ground_truth_anomaly_type": "power_anomaly",
+    "ground_truth_severity": "low"
+  }
+}

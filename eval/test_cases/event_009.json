@@ -1,0 +1,92 @@
+{
+  "event": {
+    "event_id": "evt_009",
+    "spacecraft": "SMAP",
+    "channel_id": "F-1",
+    "timestamp": "2026-01-23T03:00:00Z",
+    "window_size": 50,
+    "window_start_index": 5417,
+    "anomaly_window_end": 5467,
+    "labeled_anomaly_start": 5392,
+    "labeled_anomaly_end": 5492,
+    "anomaly_class": "point",
+    "ensemble_score": 0.0424,
+    "ensemble_agreement": 1,
+    "n_models_in_ensemble": 3,
+    "attribution": {
+      "channel_id": "F-1",
+      "feature_names": [
+        "mean",
+        "std",
+        "min",
+        "max",
+        "slope"
+      ],
+      "feature_attributions": [
+        -0.2259,
+        0.2581,
+        -1.0,
+        0.5938,
+        -0.0042
+      ],
+      "attribution_concentration": 0.4533
+    },
+    "channel_attributions": {
+      "method": "perturbation",
+      "description": "Each value is the drop in anomaly score when that channel is replaced with its training mean. Positive = channel contributed to the anomaly. Normalized to max abs = 1.",
+      "values": [
+        1.0,
+        0.2346,
+        0.1066,
+        0.2035,
+        0.0,
+        0.5243,
+        0.445,
+        0.0443,
+        0.0313,
+        0.0313,
+        0.0,
+        0.0443,
+        0.0,
+        0.0384,
+        0.0384,
+        0.0,
+        0.0,
+        0.2035,
+        0.2022,
+        0.1428,
+        0.0,
+        0.2489,
+        0.2368,
+        0.0,
+        0.0
+      ],
+      "top_channels": [
+        {
+          "channel_index": 0,
+          "attribution": 1.0
+        },
+        {
+          "channel_index": 5,
+          "attribution": 0.5243
+        },
+        {
+          "channel_index": 6,
+          "attribution": 0.445
+        },
+        {
+          "channel_index": 21,
+          "attribution": 0.2489
+        },
+        {
+          "channel_index": 22,
+          "attribution": 0.2368
+        }
+      ]
+    },
+    "archetype": "mid",
+    "ground_truth_top_feature": "min",
+    "ground_truth_anomaly_type": "sensor_fault",
+    "ground_truth_severity": "low"
+  }
+}

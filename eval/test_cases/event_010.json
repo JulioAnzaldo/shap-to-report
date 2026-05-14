@@ -1,0 +1,92 @@
+{
+  "event": {
+    "event_id": "evt_010",
+    "spacecraft": "SMAP",
+    "channel_id": "P-1",
+    "timestamp": "2026-01-24T06:00:00Z",
+    "window_size": 50,
+    "window_start_index": 2224,
+    "anomaly_window_end": 2274,
+    "labeled_anomaly_start": 2149,
+    "labeled_anomaly_end": 2349,
+    "anomaly_class": "contextual",
+    "ensemble_score": 0.0769,
+    "ensemble_agreement": 1,
+    "n_models_in_ensemble": 3,
+    "attribution": {
+      "channel_id": "P-1",
+      "feature_names": [
+        "mean",
+        "std",
+        "min",
+        "max",
+        "slope"
+      ],
+      "feature_attributions": [
+        -0.5768,
+        0.4114,
+        -0.8254,
+        0.4915,
+        0.0185
+      ],
+      "attribution_concentration": 0.3063
+    },
+    "channel_attributions": {
+      "method": "perturbation",
+      "description": "Each value is the drop in anomaly score when that channel is replaced with its training mean. Positive = channel contributed to the anomaly. Normalized to max abs = 1.",
+      "values": [
+        1.0,
+        0.3793,
+        0.0744,
+        0.3846,
+        0.0,
+        0.9249,
+        0.8484,
+        0.036,
+        0.0,
+        0.0255,
+        0.0,
+        0.036,
+        0.0,
+        0.0255,
+        0.0255,
+        0.0,
+        0.0,
+        0.3846,
+        0.3851,
+        0.2746,
+        0.0,
+        0.378,
+        0.3782,
+        0.0,
+        0.0
+      ],
+      "top_channels": [
+        {
+          "channel_index": 0,
+          "attribution": 1.0
+        },
+        {
+          "channel_index": 5,
+          "attribution": 0.9249
+        },
+        {
+          "channel_index": 6,
+          "attribution": 0.8484
+        },
+        {
+          "channel_index": 18,
+          "attribution": 0.3851
+        },
+        {
+          "channel_index": 3,
+          "attribution": 0.3846
+        }
+      ]
+    },
+    "archetype": "diffuse",
+    "ground_truth_top_feature": "min",
+    "ground_truth_anomaly_type": "power_anomaly",
+    "ground_truth_severity": "low"
+  }
+}

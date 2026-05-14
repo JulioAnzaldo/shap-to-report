@@ -1,0 +1,41 @@
+# Environment
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+
+# Node
+node_modules/
+dist/
+.DS_Store
+
+# ChromaDB — pre-populated, committed so grader doesn't need to run ingest
+# backend/chroma_db/ — DO NOT gitignore this
+
+# Report cache
+.report_cache/
+
+# Raw SMAP dataset (large, not committed)
+data/
+
+# Eval outputs (keep structure, not results)
+eval/results/
+
+# IDE
+.vscode/
+.idea/

@@ -1,0 +1,92 @@
+{
+  "event": {
+    "event_id": "evt_007",
+    "spacecraft": "SMAP",
+    "channel_id": "G-1",
+    "timestamp": "2026-01-21T21:00:00Z",
+    "window_size": 50,
+    "window_start_index": 4805,
+    "anomaly_window_end": 4855,
+    "labeled_anomaly_start": 4770,
+    "labeled_anomaly_end": 4890,
+    "anomaly_class": "contextual",
+    "ensemble_score": 0.0336,
+    "ensemble_agreement": 1,
+    "n_models_in_ensemble": 3,
+    "attribution": {
+      "channel_id": "G-1",
+      "feature_names": [
+        "mean",
+        "std",
+        "min",
+        "max",
+        "slope"
+      ],
+      "feature_attributions": [
+        -0.0216,
+        0.0,
+        -0.0216,
+        -0.0216,
+        0.0
+      ],
+      "attribution_concentration": 0.4
+    },
+    "channel_attributions": {
+      "method": "perturbation",
+      "description": "Each value is the drop in anomaly score when that channel is replaced with its training mean. Positive = channel contributed to the anomaly. Normalized to max abs = 1.",
+      "values": [
+        0.4664,
+        0.4434,
+        0.1885,
+        0.3936,
+        0.0,
+        1.0,
+        0.8588,
+        0.0863,
+        0.0431,
+        0.061,
+        0.0,
+        0.0863,
+        0.061,
+        0.0431,
+        0.0431,
+        0.0,
+        0.0,
+        0.3961,
+        0.3936,
+        0.278,
+        0.0,
+        0.4676,
+        0.4546,
+        0.0,
+        0.0
+      ],
+      "top_channels": [
+        {
+          "channel_index": 5,
+          "attribution": 1.0
+        },
+        {
+          "channel_index": 6,
+          "attribution": 0.8588
+        },
+        {
+          "channel_index": 21,
+          "attribution": 0.4676
+        },
+        {
+          "channel_index": 0,
+          "attribution": 0.4664
+        },
+        {
+          "channel_index": 22,
+          "attribution": 0.4546
+        }
+      ]
+    },
+    "archetype": "mid",
+    "ground_truth_top_feature": "mean",
+    "ground_truth_anomaly_type": "attitude_anomaly",
+    "ground_truth_severity": "low"
+  }
+}

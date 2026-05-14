@@ -1,0 +1,92 @@
+{
+  "event": {
+    "event_id": "evt_008",
+    "spacecraft": "SMAP",
+    "channel_id": "T-1",
+    "timestamp": "2026-01-22T00:00:00Z",
+    "window_size": 50,
+    "window_start_index": 3123,
+    "anomaly_window_end": 3173,
+    "labeled_anomaly_start": 2399,
+    "labeled_anomaly_end": 3898,
+    "anomaly_class": "point",
+    "ensemble_score": 0.0081,
+    "ensemble_agreement": 1,
+    "n_models_in_ensemble": 3,
+    "attribution": {
+      "channel_id": "T-1",
+      "feature_names": [
+        "mean",
+        "std",
+        "min",
+        "max",
+        "slope"
+      ],
+      "feature_attributions": [
+        0.9252,
+        0.0431,
+        0.773,
+        0.9724,
+        0.0024
+      ],
+      "attribution_concentration": 0.4156
+    },
+    "channel_attributions": {
+      "method": "perturbation",
+      "description": "Each value is the drop in anomaly score when that channel is replaced with its training mean. Positive = channel contributed to the anomaly. Normalized to max abs = 1.",
+      "values": [
+        1.0,
+        0.0325,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0325,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "top_channels": [
+        {
+          "channel_index": 0,
+          "attribution": 1.0
+        },
+        {
+          "channel_index": 1,
+          "attribution": 0.0325
+        },
+        {
+          "channel_index": 21,
+          "attribution": 0.0325
+        },
+        {
+          "channel_index": 2,
+          "attribution": 0.0
+        },
+        {
+          "channel_index": 3,
+          "attribution": 0.0
+        }
+      ]
+    },
+    "archetype": "mid",
+    "ground_truth_top_feature": "max",
+    "ground_truth_anomaly_type": "thermal_anomaly",
+    "ground_truth_severity": "low"
+  }
+}
