@@ -2,7 +2,7 @@
   "event": {
     "event_id": "evt_009",
     "spacecraft": "SMAP",
-    "channel_id": "F-1",
+    "channel_id": "FDIR_FAULT_STATUS_REG",
     "timestamp": "2026-01-23T03:00:00Z",
     "window_size": 50,
     "window_start_index": 5417,
@@ -14,7 +14,7 @@
     "ensemble_agreement": 1,
     "n_models_in_ensemble": 3,
     "attribution": {
-      "channel_id": "F-1",
+      "channel_id": "FDIR_FAULT_STATUS_REG",
       "feature_names": [
         "mean",
         "std",
@@ -87,6 +87,8 @@
     "archetype": "mid",
     "ground_truth_top_feature": "min",
     "ground_truth_anomaly_type": "sensor_fault",
-    "ground_truth_severity": "low"
+    "ground_truth_severity": "low",
+    "subsystem": "FDIR - Fault Detection, Isolation and Recovery",
+    "parameter_description": "Bitmask register reflecting active fault flags in the onboard FDIR system. On SMAP, FDIR monitors all subsystems and can trigger safe-mode autonomously. Point anomalies indicate a spurious flag trigger, a transient fault that was auto-cleared, or an actual safe-mode entry/exit event."
   }
 }

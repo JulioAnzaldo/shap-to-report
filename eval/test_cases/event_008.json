@@ -2,7 +2,7 @@
   "event": {
     "event_id": "evt_008",
     "spacecraft": "SMAP",
-    "channel_id": "T-1",
+    "channel_id": "TCS_PANEL_TEMP_PORT",
     "timestamp": "2026-01-22T00:00:00Z",
     "window_size": 50,
     "window_start_index": 3123,
@@ -14,7 +14,7 @@
     "ensemble_agreement": 1,
     "n_models_in_ensemble": 3,
     "attribution": {
-      "channel_id": "T-1",
+      "channel_id": "TCS_PANEL_TEMP_PORT",
       "feature_names": [
         "mean",
         "std",
@@ -87,6 +87,8 @@
     "archetype": "mid",
     "ground_truth_top_feature": "max",
     "ground_truth_anomaly_type": "thermal_anomaly",
-    "ground_truth_severity": "low"
+    "ground_truth_severity": "low",
+    "subsystem": "TCS - Thermal Control Subsystem",
+    "parameter_description": "Temperature of the port-side spacecraft panel, which doubles as a thermal radiator (degrees C). SMAP uses a passive TCS with panel-mounted radiators per subsystem. Point anomalies indicate eclipse entry/exit transients, a heater cycling fault, or a thermistor glitch."
   }
 }

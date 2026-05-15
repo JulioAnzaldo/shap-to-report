@@ -2,7 +2,7 @@
   "event": {
     "event_id": "evt_003",
     "spacecraft": "SMAP",
-    "channel_id": "A-8",
+    "channel_id": "STR_B_TRACK_RESIDUAL",
     "timestamp": "2026-01-17T09:00:00Z",
     "window_size": 50,
     "window_start_index": 6446,
@@ -14,7 +14,7 @@
     "ensemble_agreement": 1,
     "n_models_in_ensemble": 3,
     "attribution": {
-      "channel_id": "A-8",
+      "channel_id": "STR_B_TRACK_RESIDUAL",
       "feature_names": [
         "mean",
         "std",
@@ -87,6 +87,8 @@
     "archetype": "mid",
     "ground_truth_top_feature": "min",
     "ground_truth_anomaly_type": "attitude_anomaly",
-    "ground_truth_severity": "low"
+    "ground_truth_severity": "low",
+    "subsystem": "ACS - Attitude Control System",
+    "parameter_description": "RMS residual of Star Tracker unit B attitude solution (arcsec). SMAP relies on star trackers and IMUs for attitude knowledge between stellar updates. Elevated residuals indicate degraded tracking quality from stray light, solar/lunar intrusion, or energetic particle hits during the SAA passage."
   }
 }

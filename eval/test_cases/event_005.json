@@ -2,7 +2,7 @@
   "event": {
     "event_id": "evt_005",
     "spacecraft": "SMAP",
-    "channel_id": "D-1",
+    "channel_id": "CDS_CMD_ACCEPT_CNT",
     "timestamp": "2026-01-19T15:00:00Z",
     "window_size": 50,
     "window_start_index": 6854,
@@ -14,7 +14,7 @@
     "ensemble_agreement": 1,
     "n_models_in_ensemble": 3,
     "attribution": {
-      "channel_id": "D-1",
+      "channel_id": "CDS_CMD_ACCEPT_CNT",
       "feature_names": [
         "mean",
         "std",
@@ -87,6 +87,8 @@
     "archetype": "mid",
     "ground_truth_top_feature": "max",
     "ground_truth_anomaly_type": "sensor_fault",
-    "ground_truth_severity": "low"
+    "ground_truth_severity": "low",
+    "subsystem": "C&DH - Command and Data Handling",
+    "parameter_description": "Rolling acceptance count of commands processed by the C&DH subsystem over the 1553 bus. Unexpected dropouts indicate a command pipeline stall or uplink disruption; unexpected spikes may indicate a command flood or relay table misfire."
   }
 }

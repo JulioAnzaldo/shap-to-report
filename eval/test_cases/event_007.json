@@ -2,7 +2,7 @@
   "event": {
     "event_id": "evt_007",
     "spacecraft": "SMAP",
-    "channel_id": "G-1",
+    "channel_id": "GPS_RECV_CLOCK_BIAS",
     "timestamp": "2026-01-21T21:00:00Z",
     "window_size": 50,
     "window_start_index": 4805,
@@ -14,7 +14,7 @@
     "ensemble_agreement": 1,
     "n_models_in_ensemble": 3,
     "attribution": {
-      "channel_id": "G-1",
+      "channel_id": "GPS_RECV_CLOCK_BIAS",
       "feature_names": [
         "mean",
         "std",
@@ -87,6 +87,8 @@
     "archetype": "mid",
     "ground_truth_top_feature": "mean",
     "ground_truth_anomaly_type": "attitude_anomaly",
-    "ground_truth_severity": "low"
+    "ground_truth_severity": "low",
+    "subsystem": "GNC - Guidance, Navigation and Control (GPS)",
+    "parameter_description": "Estimated clock bias of the onboard GPS receiver relative to GPS system time (nanoseconds). Used for precision orbit determination on SMAP. Contextual anomalies reflect receiver warm resets, signal outages during high-drag orbital transitions, or ionospheric disturbances at low elevation angles."
   }
 }

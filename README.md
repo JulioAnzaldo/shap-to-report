@@ -56,7 +56,7 @@ python -m backend.rag.ingest
 ### 1. Start the backend
 
 ```bash
-python -m uvicorn backend.api.app:app --reload
+python3 -m uvicorn backend.api.app:app --reload
 ```
 
 Backend runs at `http://localhost:8000`. Interactive API docs at `http://localhost:8000/docs`.

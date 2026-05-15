@@ -2,7 +2,7 @@
   "event": {
     "event_id": "evt_002",
     "spacecraft": "SMAP",
-    "channel_id": "A-9",
+    "channel_id": "RWA_WHEEL_SPEED_4",
     "timestamp": "2026-01-16T06:00:00Z",
     "window_size": 50,
     "window_start_index": 6476,
@@ -14,7 +14,7 @@
     "ensemble_agreement": 1,
     "n_models_in_ensemble": 3,
     "attribution": {
-      "channel_id": "A-9",
+      "channel_id": "RWA_WHEEL_SPEED_4",
       "feature_names": [
         "mean",
         "std",
@@ -87,6 +87,8 @@
     "archetype": "mid",
     "ground_truth_top_feature": "min",
     "ground_truth_anomaly_type": "attitude_anomaly",
-    "ground_truth_severity": "low"
+    "ground_truth_severity": "low",
+    "subsystem": "ACS - Attitude Control System",
+    "parameter_description": "Rotational speed of Reaction Wheel Assembly unit 4 (RPM), the momentum compensation wheel. SMAP uses three primary reaction wheels plus a fourth for momentum balance against the spinning reflector antenna. Contextual deviations reflect scheduled desaturation maneuvers or momentum imbalance events."
   }
 }

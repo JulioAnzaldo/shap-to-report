@@ -2,7 +2,7 @@
   "event": {
     "event_id": "evt_006",
     "spacecraft": "SMAP",
-    "channel_id": "E-1",
+    "channel_id": "EPS_LOAD_CURRENT_A",
     "timestamp": "2026-01-20T18:00:00Z",
     "window_size": 50,
     "window_start_index": 4990,
@@ -14,7 +14,7 @@
     "ensemble_agreement": 1,
     "n_models_in_ensemble": 3,
     "attribution": {
-      "channel_id": "E-1",
+      "channel_id": "EPS_LOAD_CURRENT_A",
       "feature_names": [
         "mean",
         "std",
@@ -87,6 +87,8 @@
     "archetype": "mid",
     "ground_truth_top_feature": "min",
     "ground_truth_anomaly_type": "power_anomaly",
-    "ground_truth_severity": "low"
+    "ground_truth_severity": "low",
+    "subsystem": "EPS - Electrical Power Subsystem",
+    "parameter_description": "Total load current drawn from the primary 28V regulated bus by all spacecraft loads (amperes). SMAP EPS sources power from a 3-panel solar array (~1400W) with 74 Ah Li-ion battery backup. Contextual deviations indicate load-switching events, eclipse transitions, or unscheduled current draws."
   }
 }

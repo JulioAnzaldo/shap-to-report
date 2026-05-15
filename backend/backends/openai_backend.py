@@ -49,10 +49,11 @@ it must not instruct them to take a specific action.
 7. primary_features must contain ONLY the features whose absolute SHAP value is at \
 least 20% of the top feature's absolute value. For concentrated attribution \
 (Gini > 0.5), this will typically be one or two features. Do NOT list all features.
-8. The explanation field must reference at least one retrieved source by name \
-(document title and section). Do not merely restate the SHAP values — connect \
-the attribution pattern to a specific regulatory requirement or historical precedent \
-from the retrieved context.
+8. The explanation field must use the FEATURE INTERPRETATION GUIDE to characterize \
+the physical signal behavior (e.g. "a transient voltage dip" not "the min feature \
+was dominant"). Then connect that behavior to a retrieved source by name. \
+Never write sentences like "the min/max/mean feature contributed most" — \
+translate the statistics into what they imply about the subsystem.
 9. anomaly_type must reflect the channel and attribution pattern, not default to \
 sensor_fault for every event. Use the channel prefix and SHAP feature pattern as \
 evidence: D-channels with concentrated mean deviation → sensor_fault; \
@@ -115,34 +116,68 @@ def _build_initial_messages(event: dict[str, Any], retrieved_context: dict[str, 
         indent=2,
     )
 
-    # Add subsystem context from channel prefix
+    # Subsystem context — use explicit fields if present, fall back to prefix inference
     chan_id = str(event.get("channel_id", ""))
-    prefix_map = {
-        "P": ("Power Subsystem", "power generation, storage, and distribution"),
-        "R": ("Radiation/RF Subsystem", "radio frequency communications and radiation monitoring"),
-        "T": ("Thermal Control Subsystem", "temperature regulation via heaters and radiators"),
-        "A": ("Attitude Control Subsystem", "spacecraft orientation via reaction wheels and star trackers"),
-        "D": ("Data Handling/Downlink", "onboard data storage, processing, and transmission"),
-        "E": ("Electrical Subsystem", "power conditioning electronics and electrical interfaces"),
-        "F": ("Fault Detection/Flag Channels", "onboard fault management and FDIR state"),
-        "G": ("Guidance/Navigation", "GPS, IMU, and orbit determination"),
-    }
-    prefix = chan_id[0].upper() if chan_id else ""
-    subsystem_name, subsystem_role = prefix_map.get(prefix, ("Unknown Subsystem", "unknown function"))
+    subsystem_name = event.get("subsystem") or {
+        "P": "Power Subsystem",
+        "R": "Radiation/RF Subsystem",
+        "T": "Thermal Control Subsystem",
+        "A": "Attitude Control Subsystem",
+        "D": "Data Handling/Downlink",
+        "E": "Electrical Power Subsystem",
+        "F": "Fault Detection/Flag Channels",
+        "G": "Guidance/Navigation",
+    }.get(chan_id[0].upper() if chan_id else "", "Unknown Subsystem")
+    param_desc = event.get("parameter_description", "")
     anomaly_class = event.get("anomaly_class", "unknown")
     subsystem_block = (
         f"SUBSYSTEM CONTEXT:\n"
-        f"  Channel: {chan_id} — {subsystem_name}\n"
-        f"  Role: {subsystem_role}\n"
-        f"  Anomaly class: {anomaly_class} "
+        f"  Parameter: {chan_id} — {subsystem_name}\n"
+        + (f"  Description: {param_desc}\n" if param_desc else "")
+        + f"  Anomaly class: {anomaly_class} "
         f"({'isolated spike/dropout' if anomaly_class == 'point' else 'context-dependent deviation' if anomaly_class == 'contextual' else 'unknown'})\n"
         f"  Labeled anomaly window: indices "
         f"{event.get('labeled_anomaly_start', '?')}–{event.get('labeled_anomaly_end', '?')}"
     )
+    # Build attribution block from structured attribution data
+    attribution = event.get("attribution", {})
+    feat_names = attribution.get("feature_names", [])
+    feat_vals = attribution.get("feature_attributions", [])
+    gini = attribution.get("attribution_concentration", None)
+    if feat_names and feat_vals:
+        paired = sorted(zip(feat_names, feat_vals), key=lambda x: -abs(x[1]))
+        attribution_block = "\n".join(f"  {n}: {v:+.4f}" for n, v in paired)
+        if gini is not None:
+            attribution_block += f"\n  Gini (concentration): {gini:.4f}"
+    else:
+        attribution_block = shap_block
+
+    # Physical interpretation guide — map feature patterns to signal behavior
+    FEATURE_GUIDE = """\
+FEATURE INTERPRETATION GUIDE (use this to reason about physical signal behavior):
+  mean dominant (+) → sustained upward shift from baseline across the window
+  mean dominant (-) → sustained downward shift / level drop from baseline
+  min dominant (-)  → transient dip or dropout — signal briefly fell well below normal
+  max dominant (+)  → transient spike — signal briefly exceeded normal range
+  std dominant      → increased variability or noise in the signal
+  slope dominant (+)→ gradual upward drift across the window
+  slope dominant (-) → gradual downward drift / decay trend
+
+Cross-reference with the subsystem role to characterize the physical behavior:
+  Power + min dip     → transient voltage excursion below nominal band
+  Power + max spike   → load surge or bus overvoltage transient
+  Thermal + mean shift→ temperature drift outside nominal operating band
+  Attitude + slope    → attitude drift or reaction wheel desaturation trend
+  Data + max spike    → buffer overflow, bit error, or packet rate burst
+  Fault/Flag + any    → FDIR trigger event or fault flag state change
+  Electrical + std    → power conditioning instability or ripple
+  Guidance + slope    → orbit determination drift or IMU bias accumulation"""
+
     context_block = _format_retrieved_chunks(retrieved_context)
 
     text_content = (
-        f"SHAP ATTRIBUTION VALUES (sorted by |magnitude|):\n{shap_block}\n\n"
+        f"FEATURE ATTRIBUTIONS (sorted by |magnitude|):\n{attribution_block}\n\n"
+        f"{FEATURE_GUIDE}\n\n"
         f"{subsystem_block}\n\n"
         f"EVENT METADATA:\n{metadata_block}\n\n"
         f"RETRIEVED CONTEXT:{context_block}\n\n"

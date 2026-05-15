@@ -2,7 +2,7 @@
   "event": {
     "event_id": "evt_010",
     "spacecraft": "SMAP",
-    "channel_id": "P-1",
+    "channel_id": "PCDU_BUS_VOLTAGE_28V",
     "timestamp": "2026-01-24T06:00:00Z",
     "window_size": 50,
     "window_start_index": 2224,
@@ -14,7 +14,7 @@
     "ensemble_agreement": 1,
     "n_models_in_ensemble": 3,
     "attribution": {
-      "channel_id": "P-1",
+      "channel_id": "PCDU_BUS_VOLTAGE_28V",
       "feature_names": [
         "mean",
         "std",
@@ -87,6 +87,8 @@
     "archetype": "diffuse",
     "ground_truth_top_feature": "min",
     "ground_truth_anomaly_type": "power_anomaly",
-    "ground_truth_severity": "low"
+    "ground_truth_severity": "low",
+    "subsystem": "EPS/PCDU - Power Control and Distribution Unit",
+    "parameter_description": "Regulated voltage of the spacecraft primary 28V power bus (volts), maintained by the PCDU. Contextual deviations reflect battery charge/discharge cycling during eclipse, solar array shadowing, or load changes from instrument mode transitions on the spinning L-band radiometer."
   }
 }

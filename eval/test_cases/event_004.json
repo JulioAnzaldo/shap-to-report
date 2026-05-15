@@ -2,7 +2,7 @@
   "event": {
     "event_id": "evt_004",
     "spacecraft": "SMAP",
-    "channel_id": "D-3",
+    "channel_id": "SSR_FILL_LEVEL_PCT",
     "timestamp": "2026-01-18T12:00:00Z",
     "window_size": 50,
     "window_start_index": 6837,
@@ -14,7 +14,7 @@
     "ensemble_agreement": 3,
     "n_models_in_ensemble": 3,
     "attribution": {
-      "channel_id": "D-3",
+      "channel_id": "SSR_FILL_LEVEL_PCT",
       "feature_names": [
         "mean",
         "std",
@@ -87,6 +87,8 @@
     "archetype": "mid",
     "ground_truth_top_feature": "max",
     "ground_truth_anomaly_type": "sensor_fault",
-    "ground_truth_severity": "medium"
+    "ground_truth_severity": "medium",
+    "subsystem": "C&DH - Command and Data Handling (SSR)",
+    "parameter_description": "Percentage of the onboard Solid-State Recorder capacity currently occupied. SMAP downlinks science data at 130 Mbit/s in X-band; anomalous fill-level spikes indicate a recording rate burst, missed downlink contact, playback interruption, or SSR controller fault."
   }
 }
