@@ -2,7 +2,7 @@ import { useState } from 'react'
 import type { ProvenanceEntry } from '../types'
 
 interface Props {
-  activeChunk: (ProvenanceEntry & { fullText?: string }) | null
+  activeChunk: ProvenanceEntry | null
   onClose: () => void
 }
 
@@ -146,7 +146,7 @@ export function GlossaryPanel({ activeChunk, onClose }: Props) {
               overflowY: 'auto',
             }}
           >
-            {activeChunk.fullText ?? '(Full text not available — chunk text is in the retrieved context)'}
+            {activeChunk.text ?? '(Full text not available — chunk text is in the retrieved context)'}
           </div>
 
           <div
@@ -156,19 +156,41 @@ export function GlossaryPanel({ activeChunk, onClose }: Props) {
               color: 'var(--color-text-dim)',
               display: 'flex',
               alignItems: 'center',
+              justifyContent: 'space-between',
               gap: 6,
             }}
           >
-            <span
-              style={{
-                width: 6,
-                height: 6,
-                borderRadius: '50%',
-                background: SOURCE_COLOR[activeChunk.source_body] ?? '#a0a0b8',
-                display: 'inline-block',
-              }}
-            />
-            Relevance: {Math.round(activeChunk.relevance_score * 100)}%
+            <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+              <span
+                style={{
+                  width: 6,
+                  height: 6,
+                  borderRadius: '50%',
+                  background: SOURCE_COLOR[activeChunk.source_body] ?? '#a0a0b8',
+                  display: 'inline-block',
+                }}
+              />
+              Relevance: {Math.round(activeChunk.relevance_score * 100)}%
+            </div>
+            {activeChunk.source_body === 'NASA_Lessons_Learned' && (() => {
+              const match = activeChunk.document.match(/#(\d+)/)
+              if (!match) return null
+              return (
+                <a
+                  href={`https://llis.nasa.gov/lesson/${match[1]}`}
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{
+                    fontSize: 11,
+                    color: SOURCE_COLOR['NASA_Lessons_Learned'],
+                    textDecoration: 'none',
+                    borderBottom: `1px solid ${SOURCE_COLOR['NASA_Lessons_Learned']}55`,
+                  }}
+                >
+                  View on LLIS →
+                </a>
+              )
+            })()}
           </div>
         </div>
       )}

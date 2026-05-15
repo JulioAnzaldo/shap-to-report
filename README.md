@@ -30,7 +30,7 @@ git clone https://github.com/JulioAnzaldo/shap-to-report.git
 cd shap-to-report
 
 # 2. Create and activate a Python virtual environment
-python3 -m venv venv
+python3.12 -m venv venv
 source venv/bin/activate        # macOS/Linux
 # venv\Scripts\activate         # Windows
 
@@ -56,7 +56,7 @@ python -m backend.rag.ingest
 ### 1. Start the backend
 
 ```bash
-uvicorn backend.api.app:app --reload
+python -m uvicorn backend.api.app:app --reload
 ```
 
 Backend runs at `http://localhost:8000`. Interactive API docs at `http://localhost:8000/docs`.
